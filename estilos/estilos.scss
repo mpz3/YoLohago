@@ -1,0 +1,54 @@
+$color1:white;
+$color2:blue;
+
+.ofertas{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.7)
+    )
+    ,url(../imagenes/ofrecidos.jpg) !important;
+    background: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: "Roboto",sans-serif;
+    box-sizing: border-box;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: $color1;
+    text-align: center;
+}
+.solicitados{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../imagenes/Solicitados.jpg) !important;
+    background: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: "Roboto",sans-serif;
+    box-sizing: border-box;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: $color1;
+    text-align: center;
+}
+footer{
+    color: $color2;
+}
+.foot{
+    margin-top: 300px !important;
+    margin-bottom: 0rem;
+}
+.crear-cuenta{
+    margin-top: 100px;
+    height: 500px;
+}

@@ -1,0 +1,68 @@
+.ofertas {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url(../imagenes/ofrecidos.jpg) !important;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../imagenes/ofrecidos.jpg) !important;
+  background: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: "Roboto",sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+.solicitados {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../imagenes/Solicitados.jpg) !important;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/Solicitados.jpg) !important;
+  background: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: "Roboto",sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  color: blue;
+}
+
+.foot {
+  margin-top: 300px !important;
+  margin-bottom: 0rem;
+}
+
+.crear-cuenta {
+  margin-top: 100px;
+  height: 500px;
+}
+/*# sourceMappingURL=estilos.css.map */
