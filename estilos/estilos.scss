@@ -3,6 +3,7 @@ $color2:blue;
 $color3: black;
 $color4: rgb(235, 235, 235);
 $color5:rgb(214, 214, 214);
+$color6: rgb(255, 217, 0);
 
 article div img {
     width: auto; 
@@ -66,9 +67,34 @@ section:hover{
 }
 footer{
     color: $color3 !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    animation-name: fondologin;
+    animation-duration: 1s;
+}
+footer div{
+    display: flex;
+    flex-direction: row;
 }
 .footlg{
     margin-top: 390px;
+}
+header{
+    animation-name: fondologin;
+    animation-duration: 1s;
+}
+main{
+    animation-name: fondologin;
+    animation-duration: 1s;
+}
+@keyframes fondologin{
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 0%;
+    }
 }
 /* diseño de login*/
 #container-form{

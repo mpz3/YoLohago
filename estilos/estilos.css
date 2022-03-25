@@ -75,10 +75,66 @@ section:hover {
 
 footer {
   color: black !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-animation-name: fondologin;
+          animation-name: fondologin;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .footlg {
   margin-top: 390px;
+}
+
+header {
+  -webkit-animation-name: fondologin;
+          animation-name: fondologin;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+main {
+  -webkit-animation-name: fondologin;
+          animation-name: fondologin;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+@-webkit-keyframes fondologin {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+@keyframes fondologin {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
 }
 
 /* diseño de login*/
